@@ -14,23 +14,23 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Nama"/>
+        android:text="Nama" />
 
     <EditText
+        android:id="@+id/editTextNama"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/editTextNama"/>
+        android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/buttonproses"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Proses"
-        android:id="@+id/buttonProses"/>
+        android:text="Proses" />
 
     <TextView
+        android:id="@+id/textViewHasil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:text="Hasil"
-        android:id="@+id/textViewHasil"/>
+        android:text="Hasil" />
 
 </LinearLayout>
